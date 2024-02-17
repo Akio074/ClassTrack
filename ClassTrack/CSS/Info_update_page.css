@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: rgb(67, 195, 242);
+  padding: 10px;
+  font-size: medium;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(46, 45, 45);
+  padding: 3%;
+  padding-left: 8%;
+  padding-right: 8%;
+  border-color: rgb(67, 195, 242);
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+  text-align: start;
+  word-spacing: normal;
+  font-size: large;
+  font-weight: 100;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span {
+  align-self: center;
+}
+table {
+  display: flex;
+  text-align: start;
+}
+.labels {
+  text-shadow: 0px 0px white;
+}
+input {
+  border-color: white;
+  box-shadow: 0px 0px 1px rgb(255, 255, 255);
+  font-size: large;
+  font-weight: bolder;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  cursor: text;
+}
+input:hover {
+  background-color: rgb(224, 224, 224);
+}
+.Button {
+  align-self: center;
+  height: 40px;
+  background-color: rgb(52, 155, 193);
+  box-shadow: 0px 0px 2px rgb(255, 255, 255);
+  border-width: 2px;
+  font-size: large;
+  font-weight: bolder;
+  color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.Button:hover {
+  background-color: rgb(39, 113, 140);
+  box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+.Readonly {
+  background-color: rgb(168, 246, 246);
+}
